@@ -5,4 +5,4 @@ from . models import Product
 
 @admin.register(Product)
 class ProductModelAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'discounted_price', 'category', 'product_image']
+    list_display = ['id', 'title', 'selling_price', 'discounted_price', 'category', 'product_image']
